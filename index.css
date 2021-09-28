@@ -29,3 +29,13 @@ button {
 #increment-btn {
     background-color: darkblue;
 }
+
+#save-btn {
+    background-color: green;
+}
+
+p {
+    padding-top: 40px;
+    font-size: x-large;
+    font-weight: bold;
+}
