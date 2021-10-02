@@ -1,11 +1,16 @@
-let sentence = [
-"one",
-"two",
-"three"
-]
+let course = {
+    title: "Learn",
+    lessons: 16,
+    creator: "Dev",
+    length: 63,
+    level: 2
+    isFree: true
+    tags: ["Htlm", "CSS"]
+}
 
-let greetingEl = document.getElementById("greeting-el")
-
-for (i=0; i<sentence.length; i++) {
-    greetingEl.textContent += sentence[i] + " "
+let castle = {
+    title: "Live like a King",
+    price: 190,
+    isSuperHost: true
+    images: [img/castel.jpg, "img/castle2.jpg"]
 }
